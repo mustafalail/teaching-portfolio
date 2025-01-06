@@ -1,3 +1,6 @@
+span{
+    color: rgb(191, 137, 0);
+}
 /* Background Image for Profile Header*/
 .header-background{
     background-image: url(images/background-image.jpg);

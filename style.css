@@ -50,8 +50,5 @@ ul li:hover ul.dropdown{
     --bs-nav-link-color: #163961 !important;
     --bs-nav-link-hover-color: rgb(191, 137, 0)!important;
 }
-/* Home Social Media Icon*/
-a:hover .bi{
-    fill: #bf8900 !important;
-}
+
 

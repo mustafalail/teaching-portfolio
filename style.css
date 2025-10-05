@@ -1,4 +1,4 @@
-span{
+.page-title{
     color: rgb(191, 137, 0);
 }
 /* Background Image for Profile Header*/
@@ -45,6 +45,14 @@ ul li:hover ul.dropdown{
 .nav {
     --bs-nav-link-color: #163961 !important;
     --bs-nav-link-hover-color: rgb(191, 137, 0)!important;
+}
+
+/* Year Variable */
+:root{
+    --current-year: "2025";
+}
+.year::after {
+    content: var(--current-year);
 }
 
 

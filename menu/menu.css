@@ -58,6 +58,10 @@ ul li:hover ul.dropdown{
     content: var(--current-year);
 }
 
+.scalable-card-text{
+    font-size: clamp(0.9rem, 1vw, 1rem);
+}
+
 /* Student Review Card: Machine Learning 
 .container .car-contain-special-ml{
     text-align: center;

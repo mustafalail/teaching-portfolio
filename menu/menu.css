@@ -49,6 +49,15 @@ ul li:hover ul.dropdown{
 .ratings {
     color: rgb(255, 214, 92);
 } 
+
+/* Year Variable */
+:root{
+    --current-year: "2025";
+}
+.year::after {
+    content: var(--current-year);
+}
+
 /* Student Review Card: Machine Learning 
 .container .car-contain-special-ml{
     text-align: center;
